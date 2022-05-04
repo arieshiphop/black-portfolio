@@ -1,0 +1,21 @@
+{
+    "data":{
+        "experiencies":[
+            {"title":"Fullstack developer bootcamp","description":"This experience includes 1000 hours of teamwork, improving the way of learning and real projects.","time":"2021-2022"},
+            {"title":"Autodidact unity videogame developer","description":"Creation of 2D and 3D videogames from scratch in Unity with the C# language, specialization in OOP","time":"2019-Actually"}
+        ],
+        "projects":[
+            {"title":"Alzhmentor","description":"Perform daily exercises that will help you maintain brain agility","time":"2022 - In development","url":"https://github.com/arieshiphop/Alzhmentor/"},
+            {"title":"Ninno","description":"Ninno is a robot that will walk across your screen, without disturbing you, in the background, to bring your computer to lif","time":"2021","url":"https://arieshh.itch.io/ninno","image":"../assets/LogoNinno.png"},
+            {"title":"Lyric Sound Finder","description":"Find the lyrics of your favorite songs within reach of a single click","time":"2021","url":"https://lyricsongfinder.netlify.app/","image":"../assets/DdKSZn.png"},
+            {"title":"Fart Master","description":"Push yourself by farting to reach the goal! A single button, without keys.","time":"2020","url":"https://arieshh.itch.io/fart-master","image":"../assets/DdKSZn.png"}
+        ],
+        "socials":[
+            {"title":"Youtube","url":"https://www.youtube.com/channel/UCuIeP0lTW_h8-UY_fzT349Q"},
+            {"title":"Github","url":"https://github.com/arieshiphop"},
+            {"title":"Linkedin","url":"https://www.linkedin.com/in/iker-sanchez/"},
+            {"title":"Twitter","url":"https://twitter.com/ikersanchezdev"},
+            {"title":"Discord","url":"https://discord.gg/9CsaVFt2BY"}
+        ]
+    }
+}

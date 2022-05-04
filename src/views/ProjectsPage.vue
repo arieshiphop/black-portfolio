@@ -2,21 +2,25 @@
   <main>
     <section class="content">
       <article class="head">
-        <h2>Iker Sánchez Moreno🏁</h2>
-        <p>Passionate, proactive and ambitious fullstack developer 🤍</p>
+        <h2>Projects 📓</h2>
+        <p>All made with hearth 🖤</p>
         <hr />
       </article>
-      <div class="experiencies">
+      <div class="projects">
         <article
-          class="experiencie"
-          v-for="experiencie in experiencies"
-          :key="experiencie.title"
+          class="project"
+          v-for="project in projects"
+          :key="project.title"
         >
-          <h3>{{ experiencie.title }}</h3>
+          <a target="_blank" :href="project.url">
+            <h3 class="title">{{ project.title }}</h3>
+          </a>
           <p>
-            {{ experiencie.description }}
+            {{ project.description }}
           </p>
-          <p>{{ experiencie.time }}</p>
+          <p>{{ project.time }}</p>
+
+          <img :src="project.image" :alt="project.image" />
         </article>
       </div>
     </section>
@@ -24,24 +28,17 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import data from "../data.json";
 export default {
-  name: "Home",
   data() {
     return {
-      experiencies: data.data.experiencies,
+      projects: data.data.projects,
     };
   },
 };
 </script>
-<style lang="scss" scoped>
-@media screen and (max-width: 768px) {
-  .head {
-    max-width: 290px;
-  }
-}
 
+<style lang ="scss" scoped>
 main {
   display: grid;
   place-content: center;
@@ -50,7 +47,7 @@ main {
 p {
   opacity: 0.8;
 }
-.experiencie {
+.project {
   margin-top: 1rem;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
@@ -61,7 +58,15 @@ p {
   }
   max-width: 60vw;
 }
-.experiencies {
+.project img {
+  display: none;
+}
+/* .project:hover {
+  img {
+    display: block;
+  }
+} */
+.projects {
   overflow-y: scroll;
   scroll-behavior: smooth;
   padding: 0 0.5rem;

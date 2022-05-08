@@ -72,6 +72,7 @@ main {
 p {
   opacity: 0.8;
 }
+
 .social {
   text-align: center;
   gap: 1rem;
@@ -81,14 +82,16 @@ p {
   padding: 1rem;
   margin-left: 0.4rem;
 }
+
 .socials {
   display: flex;
-
   padding: 0 0.5rem;
 }
+
 ::-webkit-scrollbar {
   width: 1vw;
 }
+
 ::-webkit-scrollbar-track {
   background: rgb(27, 27, 27);
 }

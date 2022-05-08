@@ -6,7 +6,9 @@
         ],
         "projects":[
             {"title":"Alzhmentor","description":"Perform daily exercises that will help you maintain brain agility","time":"2022 - In development","url":"https://github.com/arieshiphop/Alzhmentor/"},
+            {"title":"Kreatore","description":"Kreatore is a static open source website generator. It builds out an entire html and css project from a single markdown source.","time":"2022 - In development","url":"https://github.com/arieshiphop/kreatore","image":""},
             {"title":"Ninno","description":"Ninno is a robot that will walk across your screen, without disturbing you, in the background, to bring your computer to lif","time":"2021","url":"https://arieshh.itch.io/ninno","image":"../assets/LogoNinno.png"},
+            {"title":"Lelli","description":"Lelli is a voice bot open source like Alexa or Siri. Order commands, and she will help you.","time":"2022 - In development","url":"https://github.com/arieshiphop/lelli","image":""},
             {"title":"Lyric Sound Finder","description":"Find the lyrics of your favorite songs within reach of a single click","time":"2021","url":"https://lyricsongfinder.netlify.app/","image":"../assets/DdKSZn.png"},
             {"title":"Fart Master","description":"Push yourself by farting to reach the goal! A single button, without keys.","time":"2020","url":"https://arieshh.itch.io/fart-master","image":"../assets/DdKSZn.png"}
         ],
